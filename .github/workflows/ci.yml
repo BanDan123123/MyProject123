@@ -53,9 +53,9 @@ jobs:
       - name: Run SonarQube analysis
         uses: SonarSource/sonarcloud-github-action@v2
         with:
-          sonar-project-key: ${{ secrets.SONAR_PROJECT_KEY }}
-          sonar-host-url: ${{ secrets.SONAR_HOST_URL }}
-          sonar-token: ${{ secrets.SONAR_TOKEN }}
+          sonar-project-key: ${{ BanDan123123_MyProject}}
+          sonar-host-url: ${{ http://localhost:9000 }}
+          sonar-token: ${{ 798a185c0465070e4383c6f0e2345881c1865b62 }}
 
   review-check:
     runs-on: ubuntu-latest
